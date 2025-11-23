@@ -261,8 +261,8 @@ def lambda_handler(event, context):
 
 ### API Gateway Setup
 
-1. Create a new REST API in API Gateway
-2. Create a POST method on a `/classify` resource
+1. Create a new HTTP API in API Gateway
+2. Create a POST method on a `/invoke_model` resource
 3. Set Lambda function as the integration target
 4. Enable CORS if needed
 5. Deploy to a stage (e.g., `prod`)
